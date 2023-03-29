@@ -1,0 +1,114 @@
+
+    body{
+     font-family: 'Titillium Web', sans-serif;
+    background: url("/img/logo.jpg");
+   background-position: center;
+    }
+    .left{
+        position:absolute;
+        display: inline-block;
+        
+        color:white;
+        left:2px;
+        top:20px;
+        text-align: center;
+       
+    }
+    .left img{
+        width: 160px;
+        filter: invert(100%);
+    }
+    .mid{
+        display:block;
+        
+        margin: 12px auto;
+
+        width: 50%;
+       color: white;
+       text-align: center;
+    }
+    .right{
+        top:20px;
+        position:absolute;
+        right: 2px;
+        display: inline-block;
+       
+        color: white;
+    }
+    .navbar{
+        display: inline-block;
+        
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding:34px 24px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        color: grey;
+        text-decoration: underline;
+    }
+    .btn{
+border-radius: 10px;
+background-color: black;
+border-color: azure;
+height: 72px;
+width: 191px;
+color:aliceblue;
+
+    }
+    .btn:hover{
+       background-color: grey;
+       text-decoration: underline;
+       box-shadow: inset;
+
+    }
+    .container{
+
+      margin: 90px 121px;
+      padding: 10px 10px;
+       width: 35%;
+       border-radius: 2px;
+       font-family: 'Titillium Web', sans-serif;
+    }
+
+    .submit{
+        border-radius: 42px;
+background-color: black;
+border-color: azure;
+height: 50px;
+width: 133px;
+color:aliceblue;
+margin: 10px 170px;
+    }
+    .submit:hover{
+        background-color: grey;
+       text-decoration: underline;
+       box-shadow: inset;
+    }
+    .form-group input{
+        display: block;
+        border-radius: 5px;
+        box-shadow: 2px 2px 3px grey;
+        padding: 6px 37px;
+        width: 216px;
+        margin: 29px 100px;
+        font: 1em sans-serif;
+        text-align: center;
+        font-family:'Titillium Web', sans-serif; ;
+    }
+    h1{
+        margin: 2px 85px;
+        width: auto;
+        color: cornsilk;
+        /*text-decoration: underline;
+        text-decoration-color:whitesmoke*/
+        text-shadow: 3px 3px 7px grey;
+        
+        
+    }
